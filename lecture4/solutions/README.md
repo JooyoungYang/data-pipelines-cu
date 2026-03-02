@@ -21,3 +21,4 @@ To resolve this issue, a specific past timestamp was manually provided when trig
 ```bash
 airflow dags trigger lecture4_stocksense_exercise \
   --logical-date 2026-02-28T12:00:00+00:00
+

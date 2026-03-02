@@ -1,19 +1,3 @@
-"""
-Lecture 4 - Exercise: StockSense Wikipedia Pageviews ETL
-
-Based on listing_4_20 from "Data Pipelines with Apache Airflow" (Chapter 4).
-
-EXERCISE: Complete ETL pipeline that fetches Wikipedia pageviews for tracked
-companies and saves to CSV. Uses Jinja templating for dynamic date handling.
-
-Pipeline: get_data → extract_gz → fetch_pageviews → add_to_db
-
-Data source: https://dumps.wikimedia.org/other/pageviews/
-Format: domain_code page_title view_count response_size (space-separated)
-
-Run for at least one successful execution, then include the output CSV in your PR.
-"""
-
 from pathlib import Path
 
 import airflow.utils.dates

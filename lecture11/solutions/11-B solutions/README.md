@@ -23,7 +23,6 @@
 
 * Increased VM memory to 4096MB in the `Vagrantfile`
 * Restarted the VM using `vagrant reload`
-* Verified successful boot via VirtualBox GUI and re-established SSH connection
 
 ---
 
@@ -31,9 +30,9 @@
 
 * The Spark ETL pipeline executed successfully using `spark-submit`
 * Output data was stored in the `output_weather/` directory in Parquet format
-* Verified the output by reading it with PySpark and inspecting schema and values
+* Checked the output using PySpark
 
-Example output:
+Output:
 
 ```text
 +--------+---------+--------+---------+----------+-----------+---------+-------------+-----------+
